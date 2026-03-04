@@ -1,0 +1,103 @@
+﻿@model NominaApp.ViewModels.DashboardViewModel
+@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<div class="row g-4 mb-4">
+    <div class="col-md-3">
+        <div class="card border-0 shadow-sm h-100">
+            <div class="card-body d-flex align-items-center gap-3">
+                <div class="rounded-circle bg-primary bg-opacity-10 p-3">
+                    <i class="bi bi-people-fill fs-3 text-primary"></i>
+                </div>
+                <div>
+                    <div class="fs-2 fw-bold">@Model.TotalEmpleados</div>
+                    <div class="text-muted small">Empleados Activos</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card border-0 shadow-sm h-100">
+            <div class="card-body d-flex align-items-center gap-3">
+                <div class="rounded-circle bg-success bg-opacity-10 p-3">
+                    <i class="bi bi-diagram-3-fill fs-3 text-success"></i>
+                </div>
+                <div>
+                    <div class="fs-2 fw-bold">@Model.TotalDepartamentos</div>
+                    <div class="text-muted small">Departamentos</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card border-0 shadow-sm h-100">
+            <div class="card-body d-flex align-items-center gap-3">
+                <div class="rounded-circle bg-warning bg-opacity-10 p-3">
+                    <i class="bi bi-currency-dollar fs-3 text-warning"></i>
+                </div>
+                <div>
+                    <div class="fs-2 fw-bold">$@Model.SalarioVigenteMes.ToString("N0")</div>
+                    <div class="text-muted small">Nómina Vigente</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card border-0 shadow-sm h-100">
+            <div class="card-body d-flex align-items-center gap-3">
+                <div class="rounded-circle bg-danger bg-opacity-10 p-3">
+                    <i class="bi bi-clock-history fs-3 text-danger"></i>
+                </div>
+                <div>
+                    <div class="fs-2 fw-bold">@Model.VigenciasPorVencer</div>
+                    <div class="text-muted small">Vigencias por Vencer (30d)</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row g-4">
+    <div class="col-md-7">
+        <div class="card border-0 shadow-sm">
+            <div class="card-header bg-white fw-semibold border-0 pt-3">
+                <i class="bi bi-bar-chart-fill me-2 text-primary"></i>Resumen por Departamento
+            </div>
+            <div class="card-body p-0">
+                <table class="table table-hover mb-0">
+                    <thead>
+                        <tr>
+                            <th>Departamento</th>
+                            <th class="text-center">Empleados</th>
+                            <th class="text-end">Nómina Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model.ResumenPorDepto)
+                        {
+                            <tr>
+                                <td>@item.Departamento</td>
+                                <td class="text-center"><span class="badge bg-primary rounded-pill">@item.Empleados</span></td>
+                                <td class="text-end fw-semibold">$@item.SalarioTotal.ToString("N0")</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-5">
+        <div class="card border-0 shadow-sm">
+            <div class="card-header bg-white fw-semibold border-0 pt-3">
+                <i class="bi bi-lightning-fill me-2 text-warning"></i>Accesos Rápidos
+            </div>
+            <div class="card-body d-flex flex-column gap-2">
+                <a asp-controller="Empleados" asp-action="Crear" class="btn btn-outline-primary text-start"><i class="bi bi-person-plus-fill me-2"></i>Nuevo Empleado</a>
+                <a asp-controller="Salarios" asp-action="Agregar" class="btn btn-outline-success text-start"><i class="bi bi-plus-circle-fill me-2"></i>Registrar Salario</a>
+                <a asp-controller="Reportes" asp-action="Index" class="btn btn-outline-secondary text-start"><i class="bi bi-file-earmark-bar-graph me-2"></i>Ver Reportes</a>
+                <a asp-controller="Auditoria" asp-action="Index" class="btn btn-outline-warning text-start"><i class="bi bi-journal-text me-2"></i>Auditoría Salarial</a>
+            </div>
+        </div>
+    </div>
+</div>

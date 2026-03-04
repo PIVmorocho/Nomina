@@ -1,0 +1,931 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|c:\\users\\adrian\\source\\repos\\nominaapp\\nominaapp\\views\\empleados\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|solutionrelative:nominaapp\\views\\empleados\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|c:\\users\\adrian\\source\\repos\\nominaapp\\nominaapp\\views\\empleados\\form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|solutionrelative:nominaapp\\views\\empleados\\form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|c:\\users\\adrian\\source\\repos\\nominaapp\\nominaapp\\views\\empleados\\ver.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|solutionrelative:nominaapp\\views\\empleados\\ver.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|c:\\users\\adrian\\source\\repos\\nominaapp\\nominaapp\\controllers\\empleadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|solutionrelative:nominaapp\\controllers\\empleadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|c:\\users\\adrian\\source\\repos\\nominaapp\\nominaapp\\controllers\\departamentoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|solutionrelative:nominaapp\\controllers\\departamentoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|c:\\users\\adrian\\source\\repos\\nominaapp\\nominaapp\\controllers\\salarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|solutionrelative:nominaapp\\controllers\\salarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|c:\\users\\adrian\\source\\repos\\nominaapp\\nominaapp\\controllers\\tituloscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|solutionrelative:nominaapp\\controllers\\tituloscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|c:\\users\\adrian\\source\\repos\\nominaapp\\nominaapp\\controllers\\gerentescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|solutionrelative:nominaapp\\controllers\\gerentescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|c:\\users\\adrian\\source\\repos\\nominaapp\\nominaapp\\controllers\\asignacionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|solutionrelative:nominaapp\\controllers\\asignacionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|c:\\users\\adrian\\source\\repos\\nominaapp\\nominaapp\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|solutionrelative:nominaapp\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|c:\\users\\adrian\\source\\repos\\nominaapp\\nominaapp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|solutionrelative:nominaapp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|c:\\users\\adrian\\source\\repos\\nominaapp\\nominaapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|solutionrelative:nominaapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|c:\\users\\adrian\\source\\repos\\nominaapp\\nominaapp\\views\\shared\\_loginlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|solutionrelative:nominaapp\\views\\shared\\_loginlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|c:\\users\\adrian\\source\\repos\\nominaapp\\nominaapp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|solutionrelative:nominaapp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|c:\\users\\adrian\\source\\repos\\nominaapp\\nominaapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|solutionrelative:nominaapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|c:\\users\\adrian\\source\\repos\\nominaapp\\nominaapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|solutionrelative:nominaapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|c:\\users\\adrian\\source\\repos\\nominaapp\\nominaapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|solutionrelative:nominaapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|c:\\users\\adrian\\source\\repos\\nominaapp\\nominaapp\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|solutionrelative:nominaapp\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|c:\\users\\adrian\\source\\repos\\nominaapp\\nominaapp\\views\\usuarios\\form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|solutionrelative:nominaapp\\views\\usuarios\\form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|c:\\users\\adrian\\source\\repos\\nominaapp\\nominaapp\\views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|solutionrelative:nominaapp\\views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|c:\\users\\adrian\\source\\repos\\nominaapp\\nominaapp\\views\\reportes\\estructuraorganizacional.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|solutionrelative:nominaapp\\views\\reportes\\estructuraorganizacional.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|c:\\users\\adrian\\source\\repos\\nominaapp\\nominaapp\\views\\reportes\\cambiossalariales.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|solutionrelative:nominaapp\\views\\reportes\\cambiossalariales.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|c:\\users\\adrian\\source\\repos\\nominaapp\\nominaapp\\views\\reportes\\nominavigente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|solutionrelative:nominaapp\\views\\reportes\\nominavigente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|c:\\users\\adrian\\source\\repos\\nominaapp\\nominaapp\\views\\reportes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|solutionrelative:nominaapp\\views\\reportes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|c:\\users\\adrian\\source\\repos\\nominaapp\\nominaapp\\views\\auditoria\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|solutionrelative:nominaapp\\views\\auditoria\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|c:\\users\\adrian\\source\\repos\\nominaapp\\nominaapp\\views\\salarios\\form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|solutionrelative:nominaapp\\views\\salarios\\form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|c:\\users\\adrian\\source\\repos\\nominaapp\\nominaapp\\views\\salarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|solutionrelative:nominaapp\\views\\salarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|c:\\users\\adrian\\source\\repos\\nominaapp\\nominaapp\\views\\titulos\\form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|solutionrelative:nominaapp\\views\\titulos\\form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|c:\\users\\adrian\\source\\repos\\nominaapp\\nominaapp\\views\\titulos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|solutionrelative:nominaapp\\views\\titulos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|c:\\users\\adrian\\source\\repos\\nominaapp\\nominaapp\\views\\gerentes\\form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|solutionrelative:nominaapp\\views\\gerentes\\form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|c:\\users\\adrian\\source\\repos\\nominaapp\\nominaapp\\views\\gerentes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|solutionrelative:nominaapp\\views\\gerentes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|c:\\users\\adrian\\source\\repos\\nominaapp\\nominaapp\\views\\asignaciones\\form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|solutionrelative:nominaapp\\views\\asignaciones\\form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|c:\\users\\adrian\\source\\repos\\nominaapp\\nominaapp\\views\\asignaciones\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|solutionrelative:nominaapp\\views\\asignaciones\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|c:\\users\\adrian\\source\\repos\\nominaapp\\nominaapp\\views\\departamentos\\form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|solutionrelative:nominaapp\\views\\departamentos\\form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|c:\\users\\adrian\\source\\repos\\nominaapp\\nominaapp\\views\\departamentos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|solutionrelative:nominaapp\\views\\departamentos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|c:\\users\\adrian\\source\\repos\\nominaapp\\nominaapp\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|solutionrelative:nominaapp\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|c:\\users\\adrian\\source\\repos\\nominaapp\\nominaapp\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|solutionrelative:nominaapp\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|c:\\users\\adrian\\source\\repos\\nominaapp\\nominaapp\\controllers\\reportescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|solutionrelative:nominaapp\\controllers\\reportescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|c:\\users\\adrian\\source\\repos\\nominaapp\\nominaapp\\controllers\\auditoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|solutionrelative:nominaapp\\controllers\\auditoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|c:\\users\\adrian\\source\\repos\\nominaapp\\nominaapp\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|solutionrelative:nominaapp\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|c:\\users\\adrian\\source\\repos\\nominaapp\\nominaapp\\services\\auditoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|solutionrelative:nominaapp\\services\\auditoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|c:\\users\\adrian\\source\\repos\\nominaapp\\nominaapp\\viewmodels\\reporteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|solutionrelative:nominaapp\\viewmodels\\reporteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|c:\\users\\adrian\\source\\repos\\nominaapp\\nominaapp\\viewmodels\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|solutionrelative:nominaapp\\viewmodels\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|c:\\users\\adrian\\source\\repos\\nominaapp\\nominaapp\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|solutionrelative:nominaapp\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|c:\\users\\adrian\\source\\repos\\nominaapp\\nominaapp\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|solutionrelative:nominaapp\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|c:\\users\\adrian\\source\\repos\\nominaapp\\nominaapp\\models\\logauditoriasalarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|solutionrelative:nominaapp\\models\\logauditoriasalarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|c:\\users\\adrian\\source\\repos\\nominaapp\\nominaapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|solutionrelative:nominaapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|c:\\users\\adrian\\source\\repos\\nominaapp\\nominaapp\\models\\salary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|solutionrelative:nominaapp\\models\\salary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|c:\\users\\adrian\\source\\repos\\nominaapp\\nominaapp\\models\\title.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|solutionrelative:nominaapp\\models\\title.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|c:\\users\\adrian\\source\\repos\\nominaapp\\nominaapp\\models\\deptmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|solutionrelative:nominaapp\\models\\deptmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|c:\\users\\adrian\\source\\repos\\nominaapp\\nominaapp\\models\\deptemp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|solutionrelative:nominaapp\\models\\deptemp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|c:\\users\\adrian\\source\\repos\\nominaapp\\nominaapp\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|solutionrelative:nominaapp\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|c:\\users\\adrian\\source\\repos\\nominaapp\\nominaapp\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3834C1E1-3687-4602-BFC1-71A04A325712}|NominaApp\\NominaApp.csproj|solutionrelative:nominaapp\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmpleadosController.cs",
+              "DocumentMoniker": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Controllers\\EmpleadosController.cs",
+              "RelativeDocumentMoniker": "NominaApp\\Controllers\\EmpleadosController.cs",
+              "ToolTip": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Controllers\\EmpleadosController.cs",
+              "RelativeToolTip": "NominaApp\\Controllers\\EmpleadosController.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAYwIAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T01:00:08.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GerentesController.cs",
+              "DocumentMoniker": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Controllers\\GerentesController.cs",
+              "RelativeDocumentMoniker": "NominaApp\\Controllers\\GerentesController.cs",
+              "ToolTip": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Controllers\\GerentesController.cs",
+              "RelativeToolTip": "NominaApp\\Controllers\\GerentesController.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAYwFkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T01:01:00.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TitulosController.cs",
+              "DocumentMoniker": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Controllers\\TitulosController.cs",
+              "RelativeDocumentMoniker": "NominaApp\\Controllers\\TitulosController.cs",
+              "ToolTip": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Controllers\\TitulosController.cs",
+              "RelativeToolTip": "NominaApp\\Controllers\\TitulosController.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAYwFcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T01:06:09.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SalariosController.cs",
+              "DocumentMoniker": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Controllers\\SalariosController.cs",
+              "RelativeDocumentMoniker": "NominaApp\\Controllers\\SalariosController.cs",
+              "ToolTip": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Controllers\\SalariosController.cs",
+              "RelativeToolTip": "NominaApp\\Controllers\\SalariosController.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAYwFQAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T01:06:25.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Ver.cshtml",
+              "DocumentMoniker": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Views\\Empleados\\Ver.cshtml",
+              "RelativeDocumentMoniker": "NominaApp\\Views\\Empleados\\Ver.cshtml",
+              "ToolTip": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Views\\Empleados\\Ver.cshtml",
+              "RelativeToolTip": "NominaApp\\Views\\Empleados\\Ver.cshtml",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAgwI0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-04T02:04:50.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "NominaApp\\Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "NominaApp\\Controllers\\UsuariosController.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAkwIEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T01:07:09.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form.cshtml",
+              "DocumentMoniker": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Views\\Empleados\\Form.cshtml",
+              "RelativeDocumentMoniker": "NominaApp\\Views\\Empleados\\Form.cshtml",
+              "ToolTip": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Views\\Empleados\\Form.cshtml",
+              "RelativeToolTip": "NominaApp\\Views\\Empleados\\Form.cshtml",
+              "ViewState": "AgIAADQAAAAAAAAAAAAgwFYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-04T02:04:34.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Views\\Empleados\\Index.cshtml",
+              "RelativeDocumentMoniker": "NominaApp\\Views\\Empleados\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Views\\Empleados\\Index.cshtml",
+              "RelativeToolTip": "NominaApp\\Views\\Empleados\\Index.cshtml",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAgwGYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-04T02:04:15.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AsignacionesController.cs",
+              "DocumentMoniker": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Controllers\\AsignacionesController.cs",
+              "RelativeDocumentMoniker": "NominaApp\\Controllers\\AsignacionesController.cs",
+              "ToolTip": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Controllers\\AsignacionesController.cs",
+              "RelativeToolTip": "NominaApp\\Controllers\\AsignacionesController.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAYwF0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T01:00:45.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DepartamentosController.cs",
+              "DocumentMoniker": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Controllers\\DepartamentosController.cs",
+              "RelativeDocumentMoniker": "NominaApp\\Controllers\\DepartamentosController.cs",
+              "ToolTip": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Controllers\\DepartamentosController.cs",
+              "RelativeToolTip": "NominaApp\\Controllers\\DepartamentosController.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAkwG4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T01:00:23.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "NominaApp\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "NominaApp\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAkwIIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T00:59:26.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Form.cshtml",
+              "DocumentMoniker": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Views\\Usuarios\\Form.cshtml",
+              "RelativeDocumentMoniker": "NominaApp\\Views\\Usuarios\\Form.cshtml",
+              "ToolTip": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Views\\Usuarios\\Form.cshtml",
+              "RelativeToolTip": "NominaApp\\Views\\Usuarios\\Form.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAgwCcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-04T02:10:45.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\appsettings.json",
+              "RelativeDocumentMoniker": "NominaApp\\appsettings.json",
+              "ToolTip": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\appsettings.json",
+              "RelativeToolTip": "NominaApp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-04T00:57:14.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Program.cs",
+              "RelativeDocumentMoniker": "NominaApp\\Program.cs",
+              "ToolTip": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Program.cs",
+              "RelativeToolTip": "NominaApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T00:54:46.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CambiosSalariales.cshtml",
+              "DocumentMoniker": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Views\\Reportes\\CambiosSalariales.cshtml",
+              "RelativeDocumentMoniker": "NominaApp\\Views\\Reportes\\CambiosSalariales.cshtml",
+              "ToolTip": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Views\\Reportes\\CambiosSalariales.cshtml",
+              "RelativeToolTip": "NominaApp\\Views\\Reportes\\CambiosSalariales.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-04T02:09:46.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "EstructuraOrganizacional.cshtml",
+              "DocumentMoniker": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Views\\Reportes\\EstructuraOrganizacional.cshtml",
+              "RelativeDocumentMoniker": "NominaApp\\Views\\Reportes\\EstructuraOrganizacional.cshtml",
+              "ToolTip": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Views\\Reportes\\EstructuraOrganizacional.cshtml",
+              "RelativeToolTip": "NominaApp\\Views\\Reportes\\EstructuraOrganizacional.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAgwCQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-04T02:10:02.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Views\\Usuarios\\Index.cshtml",
+              "RelativeDocumentMoniker": "NominaApp\\Views\\Usuarios\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Views\\Usuarios\\Index.cshtml",
+              "RelativeToolTip": "NominaApp\\Views\\Usuarios\\Index.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAgwEAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-04T02:10:26.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "NominaApp\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "NominaApp\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T02:24:37.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_LoginLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Views\\Shared\\_LoginLayout.cshtml",
+              "RelativeDocumentMoniker": "NominaApp\\Views\\Shared\\_LoginLayout.cshtml",
+              "ToolTip": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Views\\Shared\\_LoginLayout.cshtml",
+              "RelativeToolTip": "NominaApp\\Views\\Shared\\_LoginLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-04T02:18:59.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "NominaApp\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "NominaApp\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-04T02:10:58.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "NominaApp\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "NominaApp\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-04T02:11:39.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "NominaApp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "NominaApp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAKkAAAAAAAAAAAAgwMsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-04T01:09:53.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "NominaVigente.cshtml",
+              "DocumentMoniker": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Views\\Reportes\\NominaVigente.cshtml",
+              "RelativeDocumentMoniker": "NominaApp\\Views\\Reportes\\NominaVigente.cshtml",
+              "ToolTip": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Views\\Reportes\\NominaVigente.cshtml",
+              "RelativeToolTip": "NominaApp\\Views\\Reportes\\NominaVigente.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwDAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-04T02:09:33.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Views\\Reportes\\Index.cshtml",
+              "RelativeDocumentMoniker": "NominaApp\\Views\\Reportes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Views\\Reportes\\Index.cshtml",
+              "RelativeToolTip": "NominaApp\\Views\\Reportes\\Index.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAgwE8AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-04T02:09:18.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Views\\Auditoria\\Index.cshtml",
+              "RelativeDocumentMoniker": "NominaApp\\Views\\Auditoria\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Views\\Auditoria\\Index.cshtml",
+              "RelativeToolTip": "NominaApp\\Views\\Auditoria\\Index.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAgwDYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-04T02:08:45.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Form.cshtml",
+              "DocumentMoniker": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Views\\Salarios\\Form.cshtml",
+              "RelativeDocumentMoniker": "NominaApp\\Views\\Salarios\\Form.cshtml",
+              "ToolTip": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Views\\Salarios\\Form.cshtml",
+              "RelativeToolTip": "NominaApp\\Views\\Salarios\\Form.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAgwCcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-04T02:08:23.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Views\\Salarios\\Index.cshtml",
+              "RelativeDocumentMoniker": "NominaApp\\Views\\Salarios\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Views\\Salarios\\Index.cshtml",
+              "RelativeToolTip": "NominaApp\\Views\\Salarios\\Index.cshtml",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwDgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-04T02:08:06.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Form.cshtml",
+              "DocumentMoniker": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Views\\Titulos\\Form.cshtml",
+              "RelativeDocumentMoniker": "NominaApp\\Views\\Titulos\\Form.cshtml",
+              "ToolTip": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Views\\Titulos\\Form.cshtml",
+              "RelativeToolTip": "NominaApp\\Views\\Titulos\\Form.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-04T02:07:45.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Views\\Titulos\\Index.cshtml",
+              "RelativeDocumentMoniker": "NominaApp\\Views\\Titulos\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Views\\Titulos\\Index.cshtml",
+              "RelativeToolTip": "NominaApp\\Views\\Titulos\\Index.cshtml",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwDkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-04T02:07:30.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Form.cshtml",
+              "DocumentMoniker": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Views\\Gerentes\\Form.cshtml",
+              "RelativeDocumentMoniker": "NominaApp\\Views\\Gerentes\\Form.cshtml",
+              "ToolTip": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Views\\Gerentes\\Form.cshtml",
+              "RelativeToolTip": "NominaApp\\Views\\Gerentes\\Form.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-04T02:07:03.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Views\\Gerentes\\Index.cshtml",
+              "RelativeDocumentMoniker": "NominaApp\\Views\\Gerentes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Views\\Gerentes\\Index.cshtml",
+              "RelativeToolTip": "NominaApp\\Views\\Gerentes\\Index.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAgwDoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-04T02:06:44.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Form.cshtml",
+              "DocumentMoniker": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Views\\Asignaciones\\Form.cshtml",
+              "RelativeDocumentMoniker": "NominaApp\\Views\\Asignaciones\\Form.cshtml",
+              "ToolTip": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Views\\Asignaciones\\Form.cshtml",
+              "RelativeToolTip": "NominaApp\\Views\\Asignaciones\\Form.cshtml",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAgwCkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-04T02:06:22.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Views\\Asignaciones\\Index.cshtml",
+              "RelativeDocumentMoniker": "NominaApp\\Views\\Asignaciones\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Views\\Asignaciones\\Index.cshtml",
+              "RelativeToolTip": "NominaApp\\Views\\Asignaciones\\Index.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAgwEYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-04T02:06:02.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Form.cshtml",
+              "DocumentMoniker": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Views\\Departamentos\\Form.cshtml",
+              "RelativeDocumentMoniker": "NominaApp\\Views\\Departamentos\\Form.cshtml",
+              "ToolTip": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Views\\Departamentos\\Form.cshtml",
+              "RelativeToolTip": "NominaApp\\Views\\Departamentos\\Form.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAgwCcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-04T02:05:35.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Views\\Departamentos\\Index.cshtml",
+              "RelativeDocumentMoniker": "NominaApp\\Views\\Departamentos\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Views\\Departamentos\\Index.cshtml",
+              "RelativeToolTip": "NominaApp\\Views\\Departamentos\\Index.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwDUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-04T02:05:18.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "NominaApp\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "NominaApp\\Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAgwGYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-04T02:03:51.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "NominaApp\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "NominaApp\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAgwDAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-04T02:03:31.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ReportesController.cs",
+              "DocumentMoniker": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Controllers\\ReportesController.cs",
+              "RelativeDocumentMoniker": "NominaApp\\Controllers\\ReportesController.cs",
+              "ToolTip": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Controllers\\ReportesController.cs",
+              "RelativeToolTip": "NominaApp\\Controllers\\ReportesController.cs",
+              "ViewState": "AgIAALYAAAAAAAAAAAAuwMQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T01:06:54.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "AuditoriaController.cs",
+              "DocumentMoniker": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Controllers\\AuditoriaController.cs",
+              "RelativeDocumentMoniker": "NominaApp\\Controllers\\AuditoriaController.cs",
+              "ToolTip": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Controllers\\AuditoriaController.cs",
+              "RelativeToolTip": "NominaApp\\Controllers\\AuditoriaController.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAuwE0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T01:06:41.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "NominaApp\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "NominaApp\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAuwDEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T00:59:53.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "AuditoriaService.cs",
+              "DocumentMoniker": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Services\\AuditoriaService.cs",
+              "RelativeDocumentMoniker": "NominaApp\\Services\\AuditoriaService.cs",
+              "ToolTip": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Services\\AuditoriaService.cs",
+              "RelativeToolTip": "NominaApp\\Services\\AuditoriaService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAADwvxUAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T00:53:02.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ReporteViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\ViewModels\\ReporteViewModel.cs",
+              "RelativeDocumentMoniker": "NominaApp\\ViewModels\\ReporteViewModel.cs",
+              "ToolTip": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\ViewModels\\ReporteViewModel.cs",
+              "RelativeToolTip": "NominaApp\\ViewModels\\ReporteViewModel.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAswDAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T00:52:43.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "DashboardViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\ViewModels\\DashboardViewModel.cs",
+              "RelativeDocumentMoniker": "NominaApp\\ViewModels\\DashboardViewModel.cs",
+              "ToolTip": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\ViewModels\\DashboardViewModel.cs",
+              "RelativeToolTip": "NominaApp\\ViewModels\\DashboardViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T00:52:29.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "NominaApp\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "NominaApp\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T00:52:15.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "NominaApp\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "NominaApp\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAADwv3EAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T00:51:48.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "LogAuditoriaSalarios.cs",
+              "DocumentMoniker": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Models\\LogAuditoriaSalarios.cs",
+              "RelativeDocumentMoniker": "NominaApp\\Models\\LogAuditoriaSalarios.cs",
+              "ToolTip": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Models\\LogAuditoriaSalarios.cs",
+              "RelativeToolTip": "NominaApp\\Models\\LogAuditoriaSalarios.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T00:46:50.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Models\\User.cs",
+              "RelativeDocumentMoniker": "NominaApp\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Models\\User.cs",
+              "RelativeToolTip": "NominaApp\\Models\\User.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAkwCMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T00:46:33.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Salary.cs",
+              "DocumentMoniker": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Models\\Salary.cs",
+              "RelativeDocumentMoniker": "NominaApp\\Models\\Salary.cs",
+              "ToolTip": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Models\\Salary.cs",
+              "RelativeToolTip": "NominaApp\\Models\\Salary.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAkwB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T00:46:16.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Title.cs",
+              "DocumentMoniker": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Models\\Title.cs",
+              "RelativeDocumentMoniker": "NominaApp\\Models\\Title.cs",
+              "ToolTip": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Models\\Title.cs",
+              "RelativeToolTip": "NominaApp\\Models\\Title.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAkwB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T00:46:01.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "DeptManager.cs",
+              "DocumentMoniker": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Models\\DeptManager.cs",
+              "RelativeDocumentMoniker": "NominaApp\\Models\\DeptManager.cs",
+              "ToolTip": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Models\\DeptManager.cs",
+              "RelativeToolTip": "NominaApp\\Models\\DeptManager.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAkwB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T00:45:47.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "DeptEmp.cs",
+              "DocumentMoniker": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Models\\DeptEmp.cs",
+              "RelativeDocumentMoniker": "NominaApp\\Models\\DeptEmp.cs",
+              "ToolTip": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Models\\DeptEmp.cs",
+              "RelativeToolTip": "NominaApp\\Models\\DeptEmp.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAkwB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T00:45:29.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Department.cs",
+              "DocumentMoniker": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Models\\Department.cs",
+              "RelativeDocumentMoniker": "NominaApp\\Models\\Department.cs",
+              "ToolTip": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Models\\Department.cs",
+              "RelativeToolTip": "NominaApp\\Models\\Department.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAkwBkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T00:45:11.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "NominaApp\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\Adrian\\source\\repos\\NominaApp\\NominaApp\\Models\\Employee.cs",
+              "RelativeToolTip": "NominaApp\\Models\\Employee.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAkwDcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T00:44:36.654Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

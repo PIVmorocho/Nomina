@@ -1,0 +1,65 @@
+﻿@model IEnumerable<NominaApp.Models.User>
+@{
+    ViewData["Title"] = "Usuarios del Sistema";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <h5 class="mb-0"><i class="bi bi-person-lock me-2 text-primary"></i>Usuarios</h5>
+    <a asp-action="Crear" class="btn btn-primary btn-sm"><i class="bi bi-plus-lg me-1"></i>Nuevo Usuario</a>
+</div>
+
+<div class="card border-0 shadow-sm">
+    <div class="card-body p-0">
+        <table class="table table-hover align-middle mb-0">
+            <thead><tr><th>Usuario</th><th>Empleado</th><th>Rol</th><th>Estado</th><th>Acciones</th></tr></thead>
+            <tbody>
+                @foreach (var u in Model)
+                {
+                    <tr>
+                        <td class="fw-semibold">@u.Usuario</td>
+                        <td>@u.Employee?.FullName</td>
+                        <td><span class="badge @(u.Rol == "Administrador" ? "bg-danger" : "bg-info")">@u.Rol</span></td>
+                        <td><span class="badge @(u.Activo ? "badge-activo" : "badge-inactivo") px-2 py-1">@(u.Activo ? "Activo" : "Inactivo")</span></td>
+                        <td>
+                            <div class="btn-group btn-group-sm">
+                                <!-- Modal Reset Clave -->
+                                <button class="btn btn-outline-warning" data-bs-toggle="modal" data-bs-target="#modalReset-@u.Usuario"
+                                        title="Resetear clave">
+                                    <i class="bi bi-key"></i>
+                                </button>
+                                @if (u.Activo)
+                                {
+                                    <form asp-action="Desactivar" asp-route-usuario="@u.Usuario" method="post"
+                                          onsubmit="return confirm('¿Desactivar usuario @u.Usuario?')">
+                                        @Html.AntiForgeryToken()
+                                        <button type="submit" class="btn btn-outline-danger" title="Desactivar"><i class="bi bi-person-dash"></i></button>
+                                    </form>
+                                }
+                            </div>
+                            <!-- Modal Reset -->
+                            <div class="modal fade" id="modalReset-@u.Usuario" tabindex="-1">
+                                <div class="modal-dialog modal-sm">
+                                    <div class="modal-content">
+                                        <div class="modal-header"><h6 class="modal-title">Resetear Clave – @u.Usuario</h6></div>
+                                        <form asp-action="ResetClave" method="post">
+                                            @Html.AntiForgeryToken()
+                                            <div class="modal-body">
+                                                <input type="hidden" name="usuario" value="@u.Usuario" />
+                                                <label class="form-label small fw-semibold">Nueva Clave</label>
+                                                <input type="password" name="nuevaClave" class="form-control form-control-sm" required />
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Cancelar</button>
+                                                <button type="submit" class="btn btn-warning btn-sm">Actualizar</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

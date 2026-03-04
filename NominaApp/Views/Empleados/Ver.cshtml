@@ -1,0 +1,142 @@
+﻿@model NominaApp.Models.Employee
+@{
+    ViewData["Title"] = "Detalle del Empleado";
+    var hoy = DateTime.Today;
+}
+
+<div class="d-flex align-items-center mb-3 gap-2">
+    <a asp-action="Index" class="btn btn-sm btn-outline-secondary">
+        <i class="bi bi-arrow-left"></i>
+    </a>
+    <h5 class="mb-0">@Model.FullName</h5>
+    <span class="badge @(Model.Activo ? "badge-activo" : "badge-inactivo") ms-2 px-2 py-1">
+        @(Model.Activo ? "Activo" : "Inactivo")
+    </span>
+    <a asp-action="Editar" asp-route-id="@Model.EmpNo" class="btn btn-sm btn-outline-primary ms-auto">
+        <i class="bi bi-pencil me-1"></i>Editar
+    </a>
+</div>
+
+<div class="row g-4">
+    <!-- Datos personales -->
+    <div class="col-md-6">
+        <div class="card border-0 shadow-sm">
+            <div class="card-header bg-white border-0 fw-semibold pt-3">
+                <i class="bi bi-person-fill me-2 text-primary"></i>Datos Personales
+            </div>
+            <div class="card-body">
+                <dl class="row mb-0 small">
+                    <dt class="col-4 text-muted">Emp#</dt>
+                    <dd class="col-8">@Model.EmpNo</dd>
+
+                    <dt class="col-4 text-muted">CI</dt>
+                    <dd class="col-8">@Model.Ci</dd>
+
+                    <dt class="col-4 text-muted">Género</dt>
+                    <dd class="col-8">@(Model.Gender == "M" ? "Masculino" : "Femenino")</dd>
+
+                    <dt class="col-4 text-muted">Nacimiento</dt>
+                    <dd class="col-8">@Model.BirthDate.ToString("dd/MM/yyyy")</dd>
+
+                    <dt class="col-4 text-muted">Contratado</dt>
+                    <dd class="col-8">@Model.HireDate.ToString("dd/MM/yyyy")</dd>
+
+                    <dt class="col-4 text-muted">Correo</dt>
+                    <dd class="col-8">@(Model.Correo ?? "-")</dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+
+    <!-- Departamentos -->
+    <div class="col-md-6">
+        <div class="card border-0 shadow-sm">
+            <div class="card-header bg-white border-0 fw-semibold pt-3">
+                <i class="bi bi-diagram-3-fill me-2 text-success"></i>Departamentos
+            </div>
+            <div class="card-body p-0">
+                <table class="table table-sm mb-0">
+                    <thead>
+                        <tr><th>Depto</th><th>Desde</th><th>Hasta</th></tr>
+                    </thead>
+                    <tbody>
+                        @if (!Model.DeptEmps.Any())
+                        {
+                            <tr><td colspan="3" class="text-muted small text-center py-2">Sin asignaciones</td></tr>
+                        }
+                        @foreach (var d in Model.DeptEmps.OrderByDescending(x => x.FromDate))
+                        {
+                            bool vigente = d.ToDate == null || d.ToDate >= hoy;
+                            <tr class="@(!vigente ? "text-muted" : "")">
+                                <td>@d.Department?.DeptName</td>
+                                <td>@d.FromDate.ToString("dd/MM/yyyy")</td>
+                                <td>@(d.ToDate?.ToString("dd/MM/yyyy") ?? "Vigente")</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Títulos -->
+    <div class="col-md-6">
+        <div class="card border-0 shadow-sm">
+            <div class="card-header bg-white border-0 fw-semibold pt-3">
+                <i class="bi bi-award-fill me-2 text-warning"></i>Títulos / Cargos
+            </div>
+            <div class="card-body p-0">
+                <table class="table table-sm mb-0">
+                    <thead>
+                        <tr><th>Título</th><th>Desde</th><th>Hasta</th></tr>
+                    </thead>
+                    <tbody>
+                        @if (!Model.Titles.Any())
+                        {
+                            <tr><td colspan="3" class="text-muted small text-center py-2">Sin títulos</td></tr>
+                        }
+                        @foreach (var t in Model.Titles.OrderByDescending(x => x.FromDate))
+                        {
+                            <tr>
+                                <td>@t.TitleName</td>
+                                <td>@t.FromDate.ToString("dd/MM/yyyy")</td>
+                                <td>@(t.ToDate?.ToString("dd/MM/yyyy") ?? "Vigente")</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Salarios -->
+    <div class="col-md-6">
+        <div class="card border-0 shadow-sm">
+            <div class="card-header bg-white border-0 fw-semibold pt-3">
+                <i class="bi bi-currency-dollar me-2 text-success"></i>Salarios
+            </div>
+            <div class="card-body p-0">
+                <table class="table table-sm mb-0">
+                    <thead>
+                        <tr><th>Salario</th><th>Desde</th><th>Hasta</th></tr>
+                    </thead>
+                    <tbody>
+                        @if (!Model.Salaries.Any())
+                        {
+                            <tr><td colspan="3" class="text-muted small text-center py-2">Sin salarios</td></tr>
+                        }
+                        @foreach (var s in Model.Salaries.OrderByDescending(x => x.FromDate))
+                        {
+                            bool vigente = s.ToDate == null || s.ToDate >= hoy;
+                            <tr class="@(!vigente ? "text-muted" : "fw-semibold")">
+                                <td>$@s.SalaryAmount.ToString("N0")</td>
+                                <td>@s.FromDate.ToString("dd/MM/yyyy")</td>
+                                <td>@(s.ToDate?.ToString("dd/MM/yyyy") ?? "Vigente")</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

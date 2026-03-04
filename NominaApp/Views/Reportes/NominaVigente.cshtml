@@ -1,0 +1,49 @@
+﻿@model IEnumerable<NominaApp.ViewModels.ReporteNominaItem>
+@{
+    ViewData["Title"] = "Nómina Vigente";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <h5 class="mb-0"><i class="bi bi-people-fill me-2 text-primary"></i>Nómina Vigente</h5>
+    <div class="d-flex gap-2">
+        <button onclick="window.print()" class="btn btn-outline-secondary btn-sm"><i class="bi bi-printer me-1"></i>Imprimir / PDF</button>
+        <a asp-action="Index" class="btn btn-outline-primary btn-sm"><i class="bi bi-arrow-left me-1"></i>Volver</a>
+    </div>
+</div>
+
+<div class="card border-0 shadow-sm">
+    <div class="card-body p-0">
+        <table class="table table-hover align-middle mb-0">
+            <thead>
+                <tr>
+                    <th>Emp#</th>
+                    <th>Empleado</th>
+                    <th>Departamento</th>
+                    <th>Título</th>
+                    <th class="text-end">Salario</th>
+                    <th>Vigente Desde</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var r in Model)
+                {
+                    <tr>
+                        <td>@r.EmpNo</td>
+                        <td class="fw-semibold">@r.Empleado</td>
+                        <td>@r.Depto</td>
+                        <td>@r.Titulo</td>
+                        <td class="text-end">$@r.Salario.ToString("N0")</td>
+                        <td>@(r.Desde > DateTime.MinValue ? r.Desde.ToString("dd/MM/yyyy") : "-")</td>
+                    </tr>
+                }
+            </tbody>
+            <tfoot>
+                <tr class="table-light fw-bold">
+                    <td colspan="4" class="text-end">Total Nómina:</td>
+                    <td class="text-end">$@Model.Sum(r => r.Salario).ToString("N0")</td>
+                    <td></td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</div>

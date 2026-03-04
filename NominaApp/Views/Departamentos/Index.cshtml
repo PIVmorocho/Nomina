@@ -1,0 +1,54 @@
+﻿@model IEnumerable<NominaApp.Models.Department>
+@{
+    ViewData["Title"] = "Departamentos";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <h5 class="mb-0"><i class="bi bi-diagram-3-fill me-2 text-primary"></i>Departamentos</h5>
+    <a asp-action="Crear" class="btn btn-primary btn-sm"><i class="bi bi-plus-lg me-1"></i>Nuevo Departamento</a>
+</div>
+
+<div class="card border-0 shadow-sm">
+    <div class="card-header bg-white border-0 pt-3">
+        <form method="get" class="row g-2">
+            <div class="col-md-4">
+                <div class="input-group input-group-sm">
+                    <span class="input-group-text"><i class="bi bi-search"></i></span>
+                    <input type="text" name="buscar" value="@ViewBag.Buscar" class="form-control" placeholder="Buscar…" />
+                </div>
+            </div>
+            <div class="col-auto">
+                <button type="submit" class="btn btn-primary btn-sm">Buscar</button>
+                <a asp-action="Index" class="btn btn-outline-secondary btn-sm ms-1">Limpiar</a>
+            </div>
+        </form>
+    </div>
+    <div class="card-body p-0">
+        <table class="table table-hover align-middle mb-0">
+            <thead><tr><th>#</th><th>Nombre</th><th>Estado</th><th>Acciones</th></tr></thead>
+            <tbody>
+                @foreach (var d in Model)
+                {
+                    <tr>
+                        <td>@d.DeptNo</td>
+                        <td class="fw-semibold">@d.DeptName</td>
+                        <td><span class="badge @(d.Activo ? "badge-activo" : "badge-inactivo") px-2 py-1">@(d.Activo ? "Activo" : "Inactivo")</span></td>
+                        <td>
+                            <div class="btn-group btn-group-sm">
+                                <a asp-action="Editar" asp-route-id="@d.DeptNo" class="btn btn-outline-primary" title="Editar"><i class="bi bi-pencil"></i></a>
+                                @if (d.Activo)
+                                {
+                                    <form asp-action="Desactivar" asp-route-id="@d.DeptNo" method="post"
+                                          onsubmit="return confirm('¿Desactivar este departamento?')">
+                                        @Html.AntiForgeryToken()
+                                        <button type="submit" class="btn btn-outline-danger"><i class="bi bi-dash-circle"></i></button>
+                                    </form>
+                                }
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

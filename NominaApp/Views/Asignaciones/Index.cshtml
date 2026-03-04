@@ -1,0 +1,71 @@
+﻿@model IEnumerable<NominaApp.Models.DeptEmp>
+@{
+    ViewData["Title"] = "Asignaciones Empleado–Departamento"; var hoy = DateTime.Today;
+}
+
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <h5 class="mb-0"><i class="bi bi-person-badge-fill me-2 text-primary"></i>Asignaciones</h5>
+    <a asp-action="Agregar" class="btn btn-primary btn-sm"><i class="bi bi-plus-lg me-1"></i>Nueva Asignación</a>
+</div>
+
+<div class="card border-0 shadow-sm mb-3">
+    <div class="card-header bg-white border-0 pt-3">
+        <form method="get" class="row g-2">
+            <div class="col-md-4">
+                <select name="empNo" class="form-select form-select-sm">
+                    <option value="">-- Todos los empleados --</option>
+                    @foreach (SelectListItem item in (IEnumerable<SelectListItem>)ViewBag.Empleados)
+                    {
+                        <option value="@item.Value" selected="@(item.Value == ViewBag.FiltroEmp?.ToString())">@item.Text</option>
+                    }
+                </select>
+            </div>
+            <div class="col-md-4">
+                <select name="deptNo" class="form-select form-select-sm">
+                    <option value="">-- Todos los departamentos --</option>
+                    @foreach (SelectListItem item in (IEnumerable<SelectListItem>)ViewBag.Departamentos)
+                    {
+                        <option value="@item.Value" selected="@(item.Value == ViewBag.FiltroDept?.ToString())">@item.Text</option>
+                    }
+                </select>
+            </div>
+            <div class="col-auto">
+                <button type="submit" class="btn btn-primary btn-sm">Filtrar</button>
+                <a asp-action="Index" class="btn btn-outline-secondary btn-sm ms-1">Limpiar</a>
+            </div>
+        </form>
+    </div>
+    <div class="card-body p-0">
+        <table class="table table-hover align-middle mb-0">
+            <thead><tr><th>Empleado</th><th>Departamento</th><th>Desde</th><th>Hasta</th><th>Estado</th><th>Acciones</th></tr></thead>
+            <tbody>
+                @foreach (var a in Model)
+                {
+                    bool vigente = a.ToDate == null || a.ToDate >= hoy;
+                    <tr>
+                        <td>@a.Employee?.FullName</td>
+                        <td>@a.Department?.DeptName</td>
+                        <td>@a.FromDate.ToString("dd/MM/yyyy")</td>
+                        <td>@(a.ToDate?.ToString("dd/MM/yyyy") ?? "-")</td>
+                        <td><span class="badge @(vigente ? "badge-activo" : "badge-inactivo") px-2 py-1">@(vigente ? "Vigente" : "Finalizada")</span></td>
+                        <td>
+                            @if (vigente)
+                            {
+                                <form asp-action="TerminarVigencia" method="post"
+                                      onsubmit="return confirm('¿Terminar vigencia hoy?')">
+                                    @Html.AntiForgeryToken()
+                                    <input type="hidden" name="empNo" value="@a.EmpNo" />
+                                    <input type="hidden" name="deptNo" value="@a.DeptNo" />
+                                    <input type="hidden" name="fromDate" value="@a.FromDate.ToString("yyyy-MM-dd")" />
+                                    <button type="submit" class="btn btn-outline-danger btn-sm">
+                                        <i class="bi bi-calendar-x me-1"></i>Terminar
+                                    </button>
+                                </form>
+                            }
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
